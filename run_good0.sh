@@ -7,3 +7,4 @@ for f in *; do
     (cd $dir && timeout -s KILL 3 $bin)
     rm -rf $dir
 done
+lava-test-case syz0 --result pass
